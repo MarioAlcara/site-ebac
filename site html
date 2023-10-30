@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Containers HTML </title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Noticias</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sports" title="Ir para a seleção de esportes.">Esportes</a>
+                    </li>
+                    <li>
+                        <a href="#economy" title="Ir para a seleção de economia.">Economia</a>
+                    </li>
+                    <li>
+                        <a href="#games" title="Ir para a seleção de esportes.">Games</a>
+                    </li>
+                    <li>
+                        <a href="#technology" title="Ir para a seleção de tecnologia.">Tecnologia</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <main class="container">
+        <section id="sports">
+            <div class="container">
+                <h2>Esportes</h2>
+                <div class="articles">
+                    <article>
+                        <h4>Brasileirão</h4>
+                        <img src="./media/futebol-2.jpg" alt="bola de futebol e chuteira" /></br>
+                        <header>
+                            <time class="creation-date">12/10/2023 as 12:15</time></br>
+                        </header>
+                        <p>O que esperar do paulistão 2023?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus vero.</p>
+                        <a href=".containers" title="Ir para a seleção de noticias.">Ler mais</a>
+                    </article>
+
+                    <article>
+                        <h4>Campeonato paulista</h4>
+                        <img src="./media/futebol.jpeg" alt="bola de futebol" />
+                        <header>
+                            <time class="creation-date">12/10/2023 as 12:15</time></br>
+                        </header>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus vero.</p>
+                        <a href=".containers" title="Ir para a seleção de noticias.">Ler mais</a>
+                    </article>
+
+                    <article>
+                        <h4>kewllen-rose assina contrato com botafogo</h4>
+                        <img src="./media/kewllen-rose.jpg" alt="kewllen-rose" />
+                        <header>
+                            <time class="creation-date">12/10/2023 as 12:15</time></br>
+                        </header>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus vero.</p>
+                        <a href=".containers" title="Ir para a seleção de noticias.">Ler mais</a>
+        </section>
+        </div>
+        </article>
+        <section id="economy">
+            <h2>Economia</h2>
+            <div class="articles">
+                <article>
+                    <h4>Dolar congela na bolsa Americana</h4>
+                    <img src="./media/dinero.webp" alt="dolar e o grafico" />
+                    <header>
+                        <time class="creation-date">23/10/2023 as 08:00</time>
+                    </header>
+                    <h4>Dolar fecha 5,04 esta semana</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus vero.</p>
+                    <a href=".containers" title="Ir para a seleção de noticias.">Ler mais</a>
+                </article>
+
+
+                <div class="articles">
+                    <article>
+                        <h4>Dolar congela na bolsa Americana</h4>
+                        <img src="./media/notas-dolar.jpg" alt="dolar e o grafico" />
+                        <header>
+                            <time class="creation-date">23/10/2023 as 08:00</time>
+                        </header>
+                        <h4>Bolsa americana dispenca após guerra no Oriente Médio</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus vero.</p>
+                        <a href=".containers" title="Ir para a seleção de noticias.">Ler mais</a>
+                    </article>
+
+
+                    <article>
+                        <h4>Guerra em Israel</h4>
+                        <img src="./media/israel.jfif" alt="predios destruidos" />
+                        <header>
+                            <time class="creation-date">21/10/2023 as 14:35</time>
+                        </header>
+                        <h4>Guerra em Israel: risco de expansão do conflito ameaça economia do Nordeste</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus vero.
+                        </p>
+                        <a href=".containers" title="Ir para a seleção de noticias.">Ler mais</a>
+                    </article>
+                </div>
+        </section>
+
+
+
+
+        <section id="technology">
+            <h2>Tecnologia</h2>
+            <div class="articles">
+                <article>
+                    <h4>Inteligencia artificial</h4>
+                    <img src="./media/Tendencias-de-tecnologia-2023-Capa.jpg" alt="Tecnologia" />
+                    <header>
+                        <time class="creation-date">01/10/2023 as 17:15</time></br>
+                    </header>
+                    <h4>Inteligencia artificial pode contribuir para saude humana</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus vero.</p>
+                    <a href=".containers" title="Ir para a seleção de noticias.">Ler mais</a>
+                </article>
+
+                <article>
+                    <h4>Falta de profissionais em TI</h4>
+                    <img src="./media/ciber-segurança.jpg" alt="games" /> </br>
+                    <time class="creation-date">01/10/2023 as 17:15</time>
+                    <h4>Empresas precisam de profissionais urgentes!</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus vero.</p>
+                    <a href=".containers" title="Ir para a seleção de noticias.">Ler mais</a>
+                </article>
+
+                <article>
+                    <h4>T.I está em alta no mercado de trabalho</h4>
+                    <img src="./media/download.jfif" alt="games" /> </br>
+                    <time class="creation-date">01/10/2023 as 17:15</time>
+                    <h4>Area está com diversos cargos no mercado</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus vero.</p>
+                    <a href=".containers" title="Ir para a seleção de noticias.">Ler mais</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="games">
+            <h2>Games</h2>
+            <div class="articles">
+                <article>
+                    <h4>Marvel's spider-man 2</h4>
+                    <img src="./media/marvels-spider-man-2.webp" alt="games" />
+                    <header>
+                        <time class="creation-date">22/10/2023 as 17:15</time>
+                        </br>
+                    </header>
+                    <h4>Marvel's spider-man 2 sofre erro na instalação do jogo em formato de midia fisica</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus vero.</p>
+                    <a href=".containers" title="Ir para a seleção de noticias.">Ler mais</a>
+                </article>
+
+                <article>
+                    <h4>Mortal Kombat 1</h4>
+                    <img src="./media/omni man.jfif" alt="games" />
+                    <header>
+                        <time class="creation-date">20/10/2023 as 11:15</time></br>
+                    </header>
+                    <h4>Omni man será o primeiro personagem DLC em Mortal Kombat 1</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus vero.</p>
+                    <a href=".containers" title="Ir para a seleção de noticias.">Ler mais</a>
+                </article>
+
+                <article>
+                    <h4>Nintendo Switch 2</h4>
+                    <img src="./media/nintendo switch2.jpg" alt="games" />
+                    <header>
+                        <time class="creation-date">19/10/2023 as 10:15</time></br>
+                    </header>
+                    <h4>Rumor: Nintendo Switch 2 pode ter Ray Construction e também DLSS 3.5</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus vero.</p>
+                    <a href=".containers" title="Ir para a seleção de noticias.">Ler mais</a>
+                </article>
+            </div>
+            </article>
+        </section>
+
+        </div>
+
+        </section>
+
+    </main class="container">
+    <aside>
+
+    </aside>
+    <footer>
+        &copy; 2023 - Todos os direitos reservados
+    </footer>
+</body>
+
+</html>
