@@ -88,7 +88,8 @@ section h2 {
 }
 
 #sports .articles article a {
-    background-color: rgba(0,255,0, 0.8);
+    /* Alguns Links estão segundo essa referência */
+    background-color: rgba(0, 255, 89, 0.8); 
     
 }
 
